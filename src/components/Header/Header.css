@@ -1,0 +1,23 @@
+@import '../variables.css';
+
+.root {
+  background: var(--header-color);
+  color: var(--white-color);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  margin: 0 10px;
+  padding: 20px 0;
+  max-width: var(--max-content-width);
+}
+
+.root.bgrColor {
+  background: var(--header-color);
+}
+
+.bannerTitle {
+  margin: 0;
+  padding: 10px;
+}
